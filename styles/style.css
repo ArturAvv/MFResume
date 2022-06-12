@@ -3,9 +3,6 @@
   --secondary-text-color: #757575;
   --accent-color: #fb6d3a;
   --accent-color2: #145e9b;
-  --white-text-color: #ffffff;
-  --black-color: #000000;
-  --white-color: #ffffff;
   --start-color: #ffffff;
   --end-color: rgb(228, 168, 56);
   --middle-color: rgb(77, 77, 214);
@@ -39,11 +36,11 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif; */
 
 .container {
-  width: 1400px;
+  width: 1200px;
   margin: 0 auto;
-  padding-left: 120px;
-  padding-right: 50px;
-  outline: 1px solid red;
+  padding-left: 100px;
+  padding-right: 100px;
+  /* outline: 1px solid red; */
 }
 
 a {
@@ -70,16 +67,13 @@ address {
 
 .about {
   height: 400px;
-  padding: 50px;
+  padding-top: 50px;
   padding-left: 120px;
   position: relative;
 }
 
 .location {
   margin-top: 5px;
-}
-
-.photo-con {
 }
 
 .photo {
@@ -109,7 +103,6 @@ address {
 
 .edu-con {
   display: flex;
-  justify-content: center;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -140,9 +133,15 @@ address {
 
 .skills-con {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding-top: 50px;
   padding-bottom: 50px;
+  position: relative;
+}
+
+.s-skills-con {
+    position: absolute;
+    right: 300px;
 }
 
 .skills-list li::before {
