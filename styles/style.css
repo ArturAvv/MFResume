@@ -28,7 +28,12 @@ body {
   font-size: 18px;
   font-weight: 500;
   color: var(--main-text-color);
-  background-image: linear-gradient(to right, var(--start-color) 3%, var(--middle-color) 33%, var(--end-color) 77%);
+  background-image: linear-gradient(
+    to right,
+    var(--start-color) 3%,
+    var(--middle-color) 33%,
+    var(--end-color) 77%
+  );
 }
 
 /* font-family: 'Work Sans', sans-serif;
@@ -140,8 +145,8 @@ address {
 }
 
 .s-skills-con {
-    position: absolute;
-    right: 300px;
+  position: absolute;
+  right: 300px;
 }
 
 .skills-list li::before {
